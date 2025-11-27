@@ -1,0 +1,12 @@
+body{
+    padd
+    align-items: center;
+    justify-content: center;
+}
+
+#main-box{
+    background-color: aqua;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+}

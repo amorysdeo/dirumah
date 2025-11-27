@@ -1,0 +1,70 @@
+body {
+    padding-top: 25%;
+    margin: 0;
+    background-color: #f5f5f5;
+}
+
+/* BOX UTAMA */
+#main-box {
+    /* background-color: aqua; */
+    width: 75%;
+    max-width: 500px;
+
+    /* INI YANG NENGAHAN KANAN-KIRI */
+    margin-left: auto;
+    margin-right: auto;
+
+    margin-bottom: 10%;
+
+    /* Biar kontennya center */
+    text-align: center;
+
+}
+
+/* TITLE */
+#title h1 {
+    margin-bottom: 20px;
+}
+
+/* INPUT + BUTTON */
+#inputan {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+#inputan input {
+    padding: 10px;
+    width: 70%;
+    max-width: 300px;
+    border-radius: 8px;
+    border: 1px solid #aaa;
+    font-size: 16px;
+}
+
+#inputan button {
+    padding: 10px 16px;
+    border-radius: 8px;
+    border: none;
+    background-color: #fa39ca;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+#inputan button:hover {
+    background-color: #d70b9d;
+}
+
+#list-box {
+    padding: 10px;
+    width: 75%;
+    max-width: 500px;
+    border-radius: 8px;
+    border: 1px solid #aaa;
+
+    /* Nengahin */
+    margin-left: auto;
+    margin-right: auto;
+}

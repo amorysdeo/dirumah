@@ -1,0 +1,20 @@
+body{
+    padding-top: 30%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#main-box{
+    background-color: aqua;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+}
+
+#title h1{
+    
+}
