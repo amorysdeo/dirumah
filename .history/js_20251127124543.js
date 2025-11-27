@@ -74,7 +74,7 @@ btnTambah.addEventListener("click", async () => {
 clearBtn.addEventListener("click", async () => {
     const listItems = listEl.querySelectorAll("li");
 
-    if (!confirm("Yakin udah kebeli ya?")) return;
+    if (!confirm("Yakin udah kebeli yang dicentang saja?")) return;
 
     for (const li of listItems) {
         const checkbox = li.querySelector("input[type='checkbox']");
